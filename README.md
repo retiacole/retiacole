@@ -1,4 +1,6 @@
-<!-- Add the profile image or banner here when ready. -->
+<p align="center">
+  <img src="assets/room-series-banner.png" width="960" alt="船に乗るroomシリーズの5人のキャラクター / The five room-series characters aboard a sailing ship">
+</p>
 
 # ブラウザからはじめる、セキュリティの基礎
 
