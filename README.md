@@ -22,13 +22,11 @@ The Linux commands and investigation interfaces are educational simulations. The
 
 | Repository | 日本語 | English |
 | --- | --- | --- |
-| [linuxroom](https://github.com/retiacole/linuxroom) | Linuxコマンド入門。基本操作から検索・集計・パイプまで、3段階119課題・49コマンドを練習。日本語・英語対応。 | Learn Linux commands, from file navigation to searching, aggregation, and pipelines. 119 lessons across 3 levels, covering 49 commands. Japanese and English. |
-| [socroom-easy](https://github.com/retiacole/socroom-easy) | SOC業務の入門教材。初級・中級・上級の63問で、ログの読み方と調査操作を練習。日本語・英語対応。 | An introduction to SOC work, with 63 beginner-to-advanced challenges in reading logs and performing investigations. Japanese and English. |
-| [logroom](https://github.com/retiacole/logroom) | Linux風のコマンドでログを調べる演習。10ケース・104問・61コマンドで、証拠を集めて調査。日本語・英語・タイ語対応。 | Investigate logs with Linux-style commands. Collect evidence across 10 cases and 104 questions, using 61 commands. Japanese, English, and Thai. |
-| [pcaproom-easy](https://github.com/retiacole/pcaproom-easy) | Wireshark風の画面で学ぶパケット読解。51演習・95設問を通じて、プロトコルと通信の流れを確認。日本語・英語対応。 | Read packets in a Wireshark-style interface. Explore protocols and traffic flows through 51 lessons and 95 questions. Japanese and English. |
-| [socroom](https://github.com/retiacole/socroom) | SOCアナリストの調査を体験。操作チュートリアル、ガイド付き実務演習5件、難易度別15件を収録。 | Practice SOC analyst investigations with an interface tutorial, 5 guided cases, and 15 cases across 3 difficulty levels. |
-
-ブラウザですぐに試す / Try online: [Linuxroom](https://retiacole.github.io/linuxroom/) · [Logroom](https://retiacole.github.io/logroom/)
+| [linuxroom](https://github.com/retiacole/linuxroom) | Linuxコマンド入門。基本操作から検索・集計・パイプまで、3段階119課題・49コマンドを練習。日本語・英語対応。<br>[すぐにやってみる](https://retiacole.github.io/linuxroom/) | Learn Linux commands, from file navigation to searching, aggregation, and pipelines. 119 lessons across 3 levels, covering 49 commands. Japanese and English.<br>[Play Now](https://retiacole.github.io/linuxroom/) |
+| [socroom-easy](https://github.com/retiacole/socroom-easy) | SOC業務の入門教材。初級・中級・上級の63問で、ログの読み方と調査操作を練習。日本語・英語対応。<br>[すぐにやってみる](https://retiacole.github.io/socroom-easy/) | An introduction to SOC work, with 63 beginner-to-advanced challenges in reading logs and performing investigations. Japanese and English.<br>[Play Now](https://retiacole.github.io/socroom-easy/) |
+| [logroom](https://github.com/retiacole/logroom) | Linux風のコマンドでログを調べる演習。10ケース・104問・61コマンドで、証拠を集めて調査。日本語・英語・タイ語対応。<br>[すぐにやってみる](https://retiacole.github.io/logroom/) | Investigate logs with Linux-style commands. Collect evidence across 10 cases and 104 questions, using 61 commands. Japanese, English, and Thai.<br>[Play Now](https://retiacole.github.io/logroom/) |
+| [pcaproom-easy](https://github.com/retiacole/pcaproom-easy) | Wireshark風の画面で学ぶパケット読解。51演習・95設問を通じて、プロトコルと通信の流れを確認。日本語・英語対応。<br>[すぐにやってみる](https://retiacole.github.io/pcaproom-easy/) | Read packets in a Wireshark-style interface. Explore protocols and traffic flows through 51 lessons and 95 questions. Japanese and English.<br>[Play Now](https://retiacole.github.io/pcaproom-easy/) |
+| [socroom](https://github.com/retiacole/socroom) | SOCアナリストの調査を体験。操作チュートリアル、ガイド付き実務演習5件、難易度別15件を収録。<br>[すぐにやってみる](https://retiacole.github.io/socroom/) | Practice SOC analyst investigations with an interface tutorial, 5 guided cases, and 15 cases across 3 difficulty levels.<br>[Play Now](https://retiacole.github.io/socroom/) |
 
 オフライン用HTMLの入手方法は、各リポジトリのREADMEをご覧ください。 / See each repository's README for instructions on obtaining the HTML files for offline use.
 
@@ -36,7 +34,7 @@ The Linux commands and investigation interfaces are educational simulations. The
 
 | Repository | 日本語 | English |
 | --- | --- | --- |
-| [hanabi-simulator](https://github.com/retiacole/hanabi-simulator) | ブラウザで楽しむ3D花火シミュレーター。10種類の花火を、重力・空気抵抗・風・煙とともに観察。 | A browser-based 3D fireworks simulator with 10 patterns, gravity, aerodynamic drag, wind, and smoke. |
+| [hanabi-simulator](https://github.com/retiacole/hanabi-simulator) | ブラウザで楽しむ3D花火シミュレーター。10種類の花火を、重力・空気抵抗・風・煙とともに観察。<br>[すぐにやってみる](https://retiacole.github.io/hanabi-simulator/) | A browser-based 3D fireworks simulator with 10 patterns, gravity, aerodynamic drag, wind, and smoke.<br>[Play Now](https://retiacole.github.io/hanabi-simulator/) |
 
 ---
 
