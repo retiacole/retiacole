@@ -4,7 +4,7 @@
 
 # ブラウザからはじめる、セキュリティの基礎
 
-**Learn cybersecurity fundamentals in your browser.**
+# Learn cybersecurity fundamentals in your browser.
 
 ## 日本語
 
