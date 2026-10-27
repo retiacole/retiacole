@@ -6,13 +6,6 @@
 
 # Learn cybersecurity fundamentals in your browser.
 
-## パンフレット / Brochures
-
-6つの教材・おすすめの学習順・オフラインでの始め方を、URL・QRコード付きのA4・2ページにまとめました。
-
-Explore all six learning tools, the suggested learning path, and how to get started offline in a two-page A4 brochure with links and QR codes.
-
-**[日本語版をダウンロード（PDF）](brochures/logroom-series-brochure-ja.pdf?raw=true) · [Download English brochure (PDF)](brochures/logroom-series-brochure-en.pdf?raw=true)**
 
 ## 日本語 (ENGLISH FOLLOWS)
 
@@ -70,6 +63,15 @@ After graduation, other rooms are offered as optional recommendations. You can c
 | [threathunting-room](https://github.com/retiacole/threathunting-room) | 仮説から始める脅威ハンティング教材。本編38問と任意の自立調査1件で、証拠・反証・観測不足から次の調査計画まで練習。日本語・英語対応。<br>[すぐにやってみる](https://retiacole.github.io/threathunting-room/) | Practice hypothesis-driven threat hunting across 38 core lessons and an optional independent capstone: assess evidence, counter-evidence, and visibility gaps, then plan the next hunt. Japanese and English.<br>[Play Now](https://retiacole.github.io/threathunting-room/) |
 
 オフライン用HTMLの入手方法は、各リポジトリのREADMEをご覧ください。 / See each repository's README for instructions on obtaining the HTML files for offline use.
+
+## パンフレット / Brochures
+
+6つの教材・おすすめの学習順・オフラインでの始め方を、URL・QRコード付きのA4・2ページにまとめました。
+
+Explore all six learning tools, the suggested learning path, and how to get started offline in a two-page A4 brochure with links and QR codes.
+
+**[日本語版をダウンロード（PDF）](brochures/logroom-series-brochure-ja.pdf?raw=true) · [Download English brochure (PDF)](brochures/logroom-series-brochure-en.pdf?raw=true)**
+
 
 ## その他のプロジェクト / Other projects
 
