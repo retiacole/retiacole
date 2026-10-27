@@ -14,18 +14,19 @@ Linuxコマンドや調査画面は、基礎を理解するための学習用シ
 
 ### おすすめの学習順
 
-どこから始めるか迷ったら、次の順番がおすすめです。操作の基礎から始めて、ログと通信を読み解き、一連の調査と報告へ進みます。
+どこから始めるか迷ったら、まずはSOCroom-easyの初級で、ログから時刻やアカウント、処理結果を読み取ってみましょう。Linuxの知識は必要ありません。その後、Linuxroomで検索・集計のためのコマンド操作を学び、より詳しいログ分析や通信の読解、調査と報告へ進みます。
 
-**Linuxroom → SOCroom-easy → Logroom → pcaproom-easy → SOCroom → ThreatHunting-room**
+**SOCroom-easy初級 → Linuxroom初級 → SOCroom-easy中級・上級 → Logroom → pcaproom-easy → SOCroom → ThreatHunting-room**
 
-1. **[Linuxroom](https://retiacole.github.io/linuxroom/) — コマンド操作に慣れる。** まずは初級編で、ファイルの移動・閲覧・検索・集計を練習します。応用編・発展編には、ほかの教材を進めながら戻ってきても大丈夫です。
-2. **[SOCroom-easy](https://retiacole.github.io/socroom-easy/) — ログの読み方を覚える。** 初級から、時刻・アカウント・処理結果などを読み取り、検索や資料の照合、短い報告を練習します。
-3. **[Logroom](https://retiacole.github.io/logroom/) — コマンドでログを調べる。** 学んだ操作を使ってログを検索・集計・照合し、何が起きたのかを証拠から考えます。
-4. **[pcaproom-easy](https://retiacole.github.io/pcaproom-easy/) — 通信の中身を読む。** パケットの見方と基本的なプロトコルを学び、DNS・TCP・HTTPなどの通信の流れを確かめます。
-5. **[SOCroom](https://retiacole.github.io/socroom/) — 調査から判断・報告までつなげる。** 「操作チュートリアル」→「ガイド付き実務演習」→難易度「低」の順に、ログ・資料・担当者への照会を組み合わせた調査に挑戦します。
-6. **[ThreatHunting-room](https://retiacole.github.io/threathunting-room/) — 仮説から調査を始める。** 不審な活動の仮説を立て、通常業務や反証と比較しながらログを調べます。分かったことと観測の限界を整理し、次のハントや改善へつなげます。
+1. **[SOCroom-easy 初級](https://retiacole.github.io/socroom-easy/) — まずログを読む体験から。** 画面上で時刻・アカウント・処理結果などを読み取り、検索や資料の照合、短い報告を練習します。Linuxコマンドを知らなくても始められます。
+2. **[Linuxroom 初級](https://retiacole.github.io/linuxroom/) — コマンド操作に慣れる。** ログから何を読み取るかを体験した後で、ファイルの移動・閲覧・検索・集計を練習します。応用編・発展編には、ほかの教材を進めながら戻ってきても大丈夫です。
+3. **[SOCroom-easy 中級・上級](https://retiacole.github.io/socroom-easy/) — ログの読解と調査を深める。** 初級で学んだ読み方を土台に、より複雑なログや調査課題に取り組みます。
+4. **[Logroom](https://retiacole.github.io/logroom/) — コマンドでログを調べる。** 学んだ操作を使ってログを検索・集計・照合し、何が起きたのかを証拠から考えます。
+5. **[pcaproom-easy](https://retiacole.github.io/pcaproom-easy/) — 通信の中身を読む。** パケットの見方と基本的なプロトコルを学び、DNS・TCP・HTTPなどの通信の流れを確かめます。
+6. **[SOCroom](https://retiacole.github.io/socroom/) — 調査から判断・報告までつなげる。** 「操作チュートリアル」→「ガイド付き実務演習」→難易度「低」の順に、ログ・資料・担当者への照会を組み合わせた調査に挑戦します。
+7. **[ThreatHunting-room](https://retiacole.github.io/threathunting-room/) — 仮説から調査を始める。** 不審な活動の仮説を立て、通常業務や反証と比較しながらログを調べます。分かったことと観測の限界を整理し、次のハントや改善へつなげます。
 
-各教材を全問クリアしてから次へ進む必要はありません。Linux操作に慣れている方はSOCroom-easyから、ネットワークに興味がある方はpcaproom-easyから始めても大丈夫です。Logroomとpcaproom-easyは順番を入れ替えたり、並行して進めたりできます。分からない操作や用語が出てきたら、前の教材やヒントに戻りながら進めてください。
+各教材・各段階を全問クリアしてから次へ進む必要はありません。Linux操作に慣れている方はLinuxroom初級を省略でき、ネットワークに興味がある方はpcaproom-easyから始めても大丈夫です。Logroomとpcaproom-easyは順番を入れ替えたり、並行して進めたりできます。分からない操作や用語が出てきたら、前の教材やヒントに戻りながら進めてください。
 
 ## English
 
@@ -35,18 +36,19 @@ The Linux commands and investigation interfaces are educational simulations. The
 
 ### Suggested learning order
 
-If you are unsure where to begin, try the sequence below. Start with basic operations, learn to interpret logs and network traffic, then bring those skills together in an investigation and report.
+If you are unsure where to begin, start with the beginner lessons in SOCroom-easy and practice reading timestamps, accounts, and outcomes in logs. No Linux knowledge is required. Then use Linuxroom to learn commands for searching and summarizing data before moving on to deeper log analysis, network traffic, investigations, and reporting.
 
-**Linuxroom → SOCroom-easy → Logroom → pcaproom-easy → SOCroom → ThreatHunting-room**
+**SOCroom-easy (beginner) → Linuxroom (beginner) → SOCroom-easy (intermediate and advanced) → Logroom → pcaproom-easy → SOCroom → ThreatHunting-room**
 
-1. **[Linuxroom](https://retiacole.github.io/linuxroom/) — Get comfortable with commands.** Start with the beginner lessons on navigating files, reading, searching, and summarizing data. You can return to the applied and advanced lessons while working through the other tools.
-2. **[SOCroom-easy](https://retiacole.github.io/socroom-easy/) — Learn to read logs.** Begin with timestamps, accounts, and outcomes, then practice searching, cross-checking reference material, and writing a short report.
-3. **[Logroom](https://retiacole.github.io/logroom/) — Investigate logs with commands.** Use those skills to search, aggregate, and correlate records, and work out what happened from the evidence.
-4. **[pcaproom-easy](https://retiacole.github.io/pcaproom-easy/) — Read network traffic.** Learn how to inspect packets and basic protocols, then follow exchanges involving DNS, TCP, and HTTP.
-5. **[SOCroom](https://retiacole.github.io/socroom/) — Connect investigation, judgment, and reporting.** Start with the interface tutorial, continue with the guided cases, then try the low-difficulty cases. Combine logs, reference material, and inquiries to relevant staff to support your conclusions.
-6. **[ThreatHunting-room](https://retiacole.github.io/threathunting-room/) — Start an investigation from a hypothesis.** Test ideas about suspicious activity against logs, normal business explanations, and counter-evidence. Explain findings and visibility limits, then plan the next hunt or improvement.
+1. **[SOCroom-easy: beginner](https://retiacole.github.io/socroom-easy/) — Start by reading logs.** Read timestamps, accounts, and outcomes on screen, then practice searching, cross-checking reference material, and writing a short report. You can begin without knowing Linux commands.
+2. **[Linuxroom: beginner](https://retiacole.github.io/linuxroom/) — Get comfortable with commands.** Once you have tried reading logs, practice navigating files, reading, searching, and summarizing data. You can return to the applied and advanced lessons while working through the other tools.
+3. **[SOCroom-easy: intermediate and advanced](https://retiacole.github.io/socroom-easy/) — Develop your log-reading and investigation skills.** Build on the beginner lessons with more complex logs and investigation exercises.
+4. **[Logroom](https://retiacole.github.io/logroom/) — Investigate logs with commands.** Use those skills to search, aggregate, and correlate records, and work out what happened from the evidence.
+5. **[pcaproom-easy](https://retiacole.github.io/pcaproom-easy/) — Read network traffic.** Learn how to inspect packets and basic protocols, then follow exchanges involving DNS, TCP, and HTTP.
+6. **[SOCroom](https://retiacole.github.io/socroom/) — Connect investigation, judgment, and reporting.** Start with the interface tutorial, continue with the guided cases, then try the low-difficulty cases. Combine logs, reference material, and inquiries to relevant staff to support your conclusions.
+7. **[ThreatHunting-room](https://retiacole.github.io/threathunting-room/) — Start an investigation from a hypothesis.** Test ideas about suspicious activity against logs, normal business explanations, and counter-evidence. Explain findings and visibility limits, then plan the next hunt or improvement.
 
-You do not need to finish every exercise before moving on. If you already know basic Linux commands, start with SOCroom-easy; if networking interests you most, start with pcaproom-easy. Logroom and pcaproom-easy can be taken in either order or alongside each other. Revisit earlier lessons and use the hints whenever you encounter an unfamiliar operation or term.
+You do not need to finish every exercise or level before moving on. If you already know basic Linux commands, you can skip the beginner lessons in Linuxroom; if networking interests you most, start with pcaproom-easy. Logroom and pcaproom-easy can be taken in either order or alongside each other. Revisit earlier lessons and use the hints whenever you encounter an unfamiliar operation or term.
 
 ## セキュリティ学習教材 / Security learning tools
 
