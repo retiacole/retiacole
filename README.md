@@ -6,6 +6,14 @@
 
 # Learn cybersecurity fundamentals in your browser.
 
+## パンフレット / Brochures
+
+6つの教材・おすすめの学習順・オフラインでの始め方を、URL・QRコード付きのA4・2ページにまとめました。
+
+Explore all six learning tools, the suggested learning path, and how to get started offline in a two-page A4 brochure with links and QR codes.
+
+**[日本語版をダウンロード（PDF）](brochures/logroom-series-brochure-ja.pdf?raw=true) · [Download English brochure (PDF)](brochures/logroom-series-brochure-en.pdf?raw=true)**
+
 ## 日本語
 
 セキュリティをこれから学ぶ人に向けて、ブラウザだけで基礎を練習できる教材を作っています。ソフトウェアのインストールや外部サービスへの接続が難しい社内ネットワークなど、制限の多い環境でも学び始められるように、Linuxコマンド、ログ分析、パケットの読解、SOCの調査手順を、一つずつ試せる形にしています。教材のHTMLファイルをあらかじめ入手すれば、JavaScriptを実行できるブラウザで、演習をオフラインで進められます。
