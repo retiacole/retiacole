@@ -12,11 +12,41 @@
 
 Linuxコマンドや調査画面は、基礎を理解するための学習用シミュレーターとして再現しています。実際のOSや各種ツールを完全に再現したものではなく、使えるコマンド、オプション、表示結果、細かな挙動などは、実物と100%同じではありません。まずは操作や考え方に慣れ、実際の環境で学ぶための足がかりとして使ってもらえる教材を目指しています。
 
+### おすすめの学習順
+
+どこから始めるか迷ったら、次の順番がおすすめです。操作の基礎から始めて、ログと通信を読み解き、一連の調査と報告へ進みます。
+
+**Linuxroom → SOCroom-easy → Logroom → pcaproom-easy → SOCroom → ThreatHunting-room**
+
+1. **[Linuxroom](https://retiacole.github.io/linuxroom/) — コマンド操作に慣れる。** まずは初級編で、ファイルの移動・閲覧・検索・集計を練習します。応用編・発展編には、ほかの教材を進めながら戻ってきても大丈夫です。
+2. **[SOCroom-easy](https://retiacole.github.io/socroom-easy/) — ログの読み方を覚える。** 初級から、時刻・アカウント・処理結果などを読み取り、検索や資料の照合、短い報告を練習します。
+3. **[Logroom](https://retiacole.github.io/logroom/) — コマンドでログを調べる。** 学んだ操作を使ってログを検索・集計・照合し、何が起きたのかを証拠から考えます。
+4. **[pcaproom-easy](https://retiacole.github.io/pcaproom-easy/) — 通信の中身を読む。** パケットの見方と基本的なプロトコルを学び、DNS・TCP・HTTPなどの通信の流れを確かめます。
+5. **[SOCroom](https://retiacole.github.io/socroom/) — 調査から判断・報告までつなげる。** 「操作チュートリアル」→「ガイド付き実務演習」→難易度「低」の順に、ログ・資料・担当者への照会を組み合わせた調査に挑戦します。
+6. **[ThreatHunting-room](https://retiacole.github.io/threathunting-room/) — 仮説から調査を始める。** 不審な活動の仮説を立て、通常業務や反証と比較しながらログを調べます。分かったことと観測の限界を整理し、次のハントや改善へつなげます。
+
+各教材を全問クリアしてから次へ進む必要はありません。Linux操作に慣れている方はSOCroom-easyから、ネットワークに興味がある方はpcaproom-easyから始めても大丈夫です。Logroomとpcaproom-easyは順番を入れ替えたり、並行して進めたりできます。分からない操作や用語が出てきたら、前の教材やヒントに戻りながら進めてください。
+
 ## English
 
 I build browser-based learning tools for people getting started in cybersecurity. The aim is to make the basics accessible even in restricted environments, such as corporate networks where installing software or connecting to external services can be difficult. These tools offer step-by-step practice with Linux commands, log analysis, packet reading, and SOC investigations. Once you have obtained the HTML files, you can complete the exercises offline in a browser that supports JavaScript.
 
 The Linux commands and investigation interfaces are educational simulations. They do not fully reproduce a real operating system or professional tools: supported commands, options, output, and behavior are not 100% identical to their real-world counterparts. The goal is to help you become comfortable with the basic operations and ways of thinking, as a starting point for learning in a real environment.
+
+### Suggested learning order
+
+If you are unsure where to begin, try the sequence below. Start with basic operations, learn to interpret logs and network traffic, then bring those skills together in an investigation and report.
+
+**Linuxroom → SOCroom-easy → Logroom → pcaproom-easy → SOCroom → ThreatHunting-room**
+
+1. **[Linuxroom](https://retiacole.github.io/linuxroom/) — Get comfortable with commands.** Start with the beginner lessons on navigating files, reading, searching, and summarizing data. You can return to the applied and advanced lessons while working through the other tools.
+2. **[SOCroom-easy](https://retiacole.github.io/socroom-easy/) — Learn to read logs.** Begin with timestamps, accounts, and outcomes, then practice searching, cross-checking reference material, and writing a short report.
+3. **[Logroom](https://retiacole.github.io/logroom/) — Investigate logs with commands.** Use those skills to search, aggregate, and correlate records, and work out what happened from the evidence.
+4. **[pcaproom-easy](https://retiacole.github.io/pcaproom-easy/) — Read network traffic.** Learn how to inspect packets and basic protocols, then follow exchanges involving DNS, TCP, and HTTP.
+5. **[SOCroom](https://retiacole.github.io/socroom/) — Connect investigation, judgment, and reporting.** Start with the interface tutorial, continue with the guided cases, then try the low-difficulty cases. Combine logs, reference material, and inquiries to relevant staff to support your conclusions.
+6. **[ThreatHunting-room](https://retiacole.github.io/threathunting-room/) — Start an investigation from a hypothesis.** Test ideas about suspicious activity against logs, normal business explanations, and counter-evidence. Explain findings and visibility limits, then plan the next hunt or improvement.
+
+You do not need to finish every exercise before moving on. If you already know basic Linux commands, start with SOCroom-easy; if networking interests you most, start with pcaproom-easy. Logroom and pcaproom-easy can be taken in either order or alongside each other. Revisit earlier lessons and use the hints whenever you encounter an unfamiliar operation or term.
 
 ## セキュリティ学習教材 / Security learning tools
 
@@ -27,6 +57,7 @@ The Linux commands and investigation interfaces are educational simulations. The
 | [logroom](https://github.com/retiacole/logroom) | Linux風のコマンドでログを調べる演習。10ケース・104問・61コマンドで、証拠を集めて調査。日本語・英語・タイ語対応。<br>[すぐにやってみる](https://retiacole.github.io/logroom/) | Investigate logs with Linux-style commands. Collect evidence across 10 cases and 104 questions, using 61 commands. Japanese, English, and Thai.<br>[Play Now](https://retiacole.github.io/logroom/) |
 | [pcaproom-easy](https://github.com/retiacole/pcaproom-easy) | Wireshark風の画面で学ぶパケット読解。51演習・95設問を通じて、プロトコルと通信の流れを確認。日本語・英語対応。<br>[すぐにやってみる](https://retiacole.github.io/pcaproom-easy/) | Read packets in a Wireshark-style interface. Explore protocols and traffic flows through 51 lessons and 95 questions. Japanese and English.<br>[Play Now](https://retiacole.github.io/pcaproom-easy/) |
 | [socroom](https://github.com/retiacole/socroom) | SOCアナリストの調査を体験。操作チュートリアル、ガイド付き実務演習5件、難易度別15件を収録。<br>[すぐにやってみる](https://retiacole.github.io/socroom/) | Practice SOC analyst investigations with an interface tutorial, 5 guided cases, and 15 cases across 3 difficulty levels.<br>[Play Now](https://retiacole.github.io/socroom/) |
+| [threathunting-room](https://github.com/retiacole/threathunting-room) | 仮説から始める脅威ハンティング教材。本編38問で、証拠・反証・観測不足から次の調査計画まで練習。日本語・英語対応。<br>[すぐにやってみる](https://retiacole.github.io/threathunting-room/) | Practice hypothesis-driven threat hunting across 38 lessons: assess evidence, counter-evidence, and visibility gaps, then plan the next hunt. Japanese and English.<br>[Play Now](https://retiacole.github.io/threathunting-room/) |
 
 オフライン用HTMLの入手方法は、各リポジトリのREADMEをご覧ください。 / See each repository's README for instructions on obtaining the HTML files for offline use.
 
