@@ -78,6 +78,7 @@ Explore all six learning tools, the suggested learning path, and how to get star
 | Repository | 日本語 | English |
 | --- | --- | --- |
 | [hanabi-simulator](https://github.com/retiacole/hanabi-simulator) | ブラウザで楽しむ3D花火シミュレーター。10種類の花火を、重力・空気抵抗・風・煙とともに観察。<br>[すぐにやってみる](https://retiacole.github.io/hanabi-simulator/) | A browser-based 3D fireworks simulator with 10 patterns, gravity, aerodynamic drag, wind, and smoke.<br>[Play Now](https://retiacole.github.io/hanabi-simulator/) |
+| [wazuhroom](https://github.com/retiacole/wazuhroom) | WazuhをつかったSOC業務の基本フローと操作方法を体験するコンテンツ。操作入門1件と調査6件で、アラート確認から調査・判断・報告まで練習。日本語・英語、オフライン対応。<br>[すぐにやってみる](https://retiacole.github.io/wazuhroom/) | Experience the basic SOC workflow and operations using Wazuh. An interface tutorial and 6 investigations connect alert review, investigation, decisions, and reporting. Japanese / English; works offline.<br>[Play Now](https://retiacole.github.io/wazuhroom/) |
 
 ---
 
